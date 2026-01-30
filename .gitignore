@@ -1,0 +1,57 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Model weights (large binary files)
+*.pth
+*.pt
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Dataset
+dataset/
+
+# Generated outputs
+result_*.jpg
+result_*.png
+confusion_matrix.png
+distribution.png
+*.jpg
+*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.gitkeep
+
+# Environment
+.python-version
+.env
+.env.local
+
+# Test files
+test.jpg
+test2.jpg
+test*.jpg
